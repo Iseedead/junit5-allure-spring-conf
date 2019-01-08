@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: junit5_test.test_pkg.SampleTestClass2
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.44 s <<< FAILURE! - in junit5_test.test_pkg.SampleTestClass2
+selenium_test  Time elapsed: 15.164 s
+fail_selenium_test  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.Throwable: Yep, I thew Throwable
+	at junit5_test.test_pkg.SampleTestClass2.fail_selenium_test(SampleTestClass2.java:78)
+
+spring_test  Time elapsed: 0.034 s
+test1  Time elapsed: 0.01 s
+spring_test  Time elapsed: 0.018 s

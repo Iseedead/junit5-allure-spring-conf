@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: junit5_test.test_pkg.SampleTestClass1
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 16.513 s <<< FAILURE! - in junit5_test.test_pkg.SampleTestClass1
+test2  Time elapsed: 0.065 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Fail Msg
+	at junit5_test.test_pkg.SampleTestClass1.test2(SampleTestClass1.java:85)
+
+test3  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.RuntimeException: Hello there
+	at junit5_test.test_pkg.SampleTestClass1.test3(SampleTestClass1.java:97)
+
+test4  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException: NPE, MOTHER FUCKER!
+	at junit5_test.test_pkg.SampleTestClass1.test4(SampleTestClass1.java:108)
+

@@ -1,0 +1,53 @@
+{
+  "uid" : "34911c7ebf733f39",
+  "name" : "selenium Test1",
+  "fullName" : "junit5_test.test_pkg.SampleTestClass1.selenium_test",
+  "historyId" : "947ebf33791ebc5cf6a41d2f38657ccf",
+  "time" : {
+    "start" : 1546959697719,
+    "stop" : 1546959712783,
+    "duration" : 15064
+  },
+  "status" : "passed",
+  "description" : "",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "selenium_tag"
+  }, {
+    "name" : "tag",
+    "value" : "tag_for_all"
+  }, {
+    "name" : "tag",
+    "value" : "class_tag1"
+  }, {
+    "name" : "tag",
+    "value" : "class_tag2"
+  }, {
+    "name" : "host",
+    "value" : "sivkovych.local"
+  }, {
+    "name" : "thread",
+    "value" : "1244@sivkovych.local.ForkJoinPool-1-worker-1(14)"
+  }, {
+    "name" : "package",
+    "value" : "junit5_test.test_pkg.SampleTestClass1"
+  }, {
+    "name" : "testClass",
+    "value" : "junit5_test.test_pkg.SampleTestClass1"
+  }, {
+    "name" : "testMethod",
+    "value" : "selenium_test"
+  }, {
+    "name" : "suite",
+    "value" : "'@DisplayName' of class1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

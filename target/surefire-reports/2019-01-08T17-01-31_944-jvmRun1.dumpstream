@@ -1,0 +1,20 @@
+# Created at 2019-01-08T17:01:52.938
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '17:01:52.927 [ForkJoinPool-1-worker-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter something'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '17:01:52.927 [ForkJoinPool-1-worker-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter something'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-01-08T17:01:52.949
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '17:01:52.949 [ForkJoinPool-1-worker-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter something'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '17:01:52.949 [ForkJoinPool-1-worker-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter something'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Thread.java:748)
+
+
